@@ -34,9 +34,9 @@ IN_BTTS = [
     [
         Button.url(
             "Owner",
-            url="https://t.me/r0ld3x",
+            url="https://t.me/amit_dhostai",
         ),
-        Button.url("Support", url="https://t.me/RoldexVerse"),
+        Button.url("Support", url="https://t.me/noobdevloper"),
     ]
 ]
 
@@ -177,16 +177,16 @@ def in_pattern(pattern=None, owner=False, **kwargs):
                 MSG = f"""
 Hello! I am [{client.name}](tg://user?id={client.botid}).
 A Multi functional bot for telegram written in python3.
-<b>Owner</b>: <a href="https://t.me/r0ld3x">Roldex</a>
-<b>Support</b>: <a href="https://t.me/roldexverse">RoldexVerse</a>
-<b>Github</b>: <a href="https://github.com/r0ld3x">r0ld3x</a>
+<b>Owner</b>: <a href="https://t.me/amit_dhostai">Roldex</a>
+<b>Support</b>: <a href="https://t.me/noobdevloper">RoldexVerse</a>
+<b>Github</b>: <a href="https://github.com/AMITTHECODER">r0ld3x</a>
 (c) RoldexVerse
 """
                 res = [
                     await event.builder.article(
                         title= f"{client.name} - @{client.botname}",
-                        url="https://t.me/RoldexVerse",
-                        description="(c) RoldexVerse",
+                        url="https://t.me/noobdevloper",
+                        description="(c) noobdevloper",
                         text=MSG,
                         thumb=InputWebDocument(
                             BOT_PIC,
